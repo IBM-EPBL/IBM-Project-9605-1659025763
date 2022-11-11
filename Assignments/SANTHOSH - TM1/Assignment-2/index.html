@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- 1. Create form of type input text, email, password, radio button text Area, drop down and navigate to success page 
+    and display files of form in table (CSS, HTML).
+2. For CSS create external style sheet for above task (separate CSS file and link that in html). -->
+  <body>
+    <main class="main-container flex flex-center">
+      <div class="form-container">
+        <h1>Details</h1>
+        <form action="./index.html" id="details-form">
+          <div class="form-item">
+            <label for="name" class="form__label">Name</label>
+            <input
+              type="text"
+              class="form__input form__input--focus"
+              id="name"
+              name="name"
+            />
+          </div>
+          <div class="form-item">
+            <label for="mail" class="form__label">Mail</label>
+            <input
+              type="mail"
+              class="form__input form__input--focus"
+              id="mail"
+              name="mail"
+            />
+          </div>
+          <div class="form-item">
+            <label for="" class="form__label">Password</label>
+            <input
+              type="password"
+              class="form__input form__input--focus"
+              id="password"
+              name="password"
+            />
+          </div>
+          <div class="form-item">
+            <label for="gender" class="form__label">Gender</label>
+            <div id="gender">
+              <input
+                type="radio"
+                class="radio__input"
+                id="male"
+                value="male"
+                name="gender"
+              />
+              <label for="male" class="radio__label">Male</label>
+              <input
+                type="radio"
+                class="radio__input"
+                id="female"
+                value="female"
+                name="gender"
+              />
+              <label for="female" class="radio__label">Female</label>
+            </div>
+          </div>
+          <div class="form-item">
+            <label for="state" class="form__label">State</label>
+            <div class="form__dropdown">
+              <select class="state__select" name="state" id="state">
+                <optgroup class="state-options">
+                  <option value="select" selected>select</option>
+                  <option value="Tamilnadu">Tamilnadu</option>
+                  <option value="Kerala">Kerala</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="others">others</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-submit text-m">Submit</button>
+        </form>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
