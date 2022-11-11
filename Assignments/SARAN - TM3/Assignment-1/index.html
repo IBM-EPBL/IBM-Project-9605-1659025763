@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="form-container">
+        <h2>Enter Your details</h2>
+        <form action="/" class="details">
+          <div class="form__item">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form__item">
+            <label for="qualification">Qualification</label>
+            <input
+              type="text"
+              id="qualification"
+              placeholder="Enter your qualification"
+            />
+          </div>
+          <div class="form__item">
+            <label for="number">Number</label>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              placeholder="Enter your number"
+            />
+          </div>
+          <div class="form__item">
+            <label for="mail">Mail</label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Enter your mail"
+            />
+          </div>
+          <button class="btn btn-submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
