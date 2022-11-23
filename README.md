@@ -39,4 +39,8 @@
 
 ![TECHNICAL ARCHITECTURE](https://lh3.googleusercontent.com/1OWTBsvpOXh0YVOalvRAGG8uDOBJea7NpyXg5hSSHb61IRRFHTY8txceIQfcIsc9b9coajOEraPoPIAVr5SOr0WFF0iQKVHnHOXk-wAn6XwNjuZFSsdGwreGV7Y10Q)
 
+## DEPLOY LINK:
+
+### https://skill-job-recommender.onrender.com
+
 
